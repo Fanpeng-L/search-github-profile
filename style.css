@@ -29,7 +29,7 @@ body {
 
 .user-form input {
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.5rem;
   display: block;
   width: 100%;
   background-color: var(--dark-color);
@@ -94,6 +94,11 @@ body {
 .user-info ul li strong {
   font-size: 1rem;
   margin: 0 0.6rem 0 0.2rem;
+}
+
+.user-info span {
+  font-weight: bold;
+  color: rgb(227, 212, 184);
 }
 
 .repo {
